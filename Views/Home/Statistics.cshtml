@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Herbet_Ioana_Proiect.Models.DressesViewModels.OrderGroup>
+@{
+    ViewData["Title"] = "Ordered Dresses Statistics";
+}
+<h2>Ordered Dresses Statistics</h2>
+<table>
+    <tr>
+        <th>
+            Order Date
+        </th>
+        <th>
+            Ordered Dresses
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @item.DressCount
+            </td>
+        </tr>
+    }
+</table>

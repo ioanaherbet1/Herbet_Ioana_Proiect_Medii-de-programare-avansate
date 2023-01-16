@@ -1,0 +1,103 @@
+.btn-primary {
+    font-family: Castellar;
+    color: white;
+    background-color: #F66C90;
+    border-color: #33ccff;
+    border: 1px;
+    background: linear-gradient(to left, #33ccff 0%, #ff33cc 84%);
+    padding: 10px;
+    margin-top: 15px;
+    width: 170px;
+}
+
+.btn-default {
+    font-family: Castellar;
+    color: white;
+    background-color: #F66C90;
+    border-color: #33ccff;
+    border: 1px;
+    background: linear-gradient(to left, #33ccff 0%, #ff33cc 84%);
+    width: 120px;
+}
+
+.col-6 {
+    font-family: Castellar;
+}
+
+
+.navbar-brand {
+    font-family: 'Harlow Solid';
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    font-family: Algerian;
+    background: -webkit-linear-gradient(#ff33cc,#33ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+dt {
+    background: -webkit-linear-gradient(#ff33cc,#33ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
+
+.container {
+    color: #D273D1;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+a {
+    color: #D273D1;
+    font-size: 15px;
+}
+
+th {
+    color: #6CCAE9;
+    font-style:italic;
+}
+
+td {
+    color: purple;
+}
+
+p {
+    font-size:18px;
+    color:purple;
+    font-weight:500;
+    font-style: italic;
+}
+
+h4 {
+    padding-top:15px;
+    background: -webkit-linear-gradient(#ff33cc,#33ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
